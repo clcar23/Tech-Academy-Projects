@@ -10,5 +10,6 @@ class djangoClasses(models.Model):
 
     objects = models.Manager()
 
+# 
     def __str__(self):
-        return self.name
+        return self.Title
